@@ -5,7 +5,7 @@ season: 2025-2026
 stage: semifinal
 stage_label: Halbfinale
 leg: 1
-generated_at: 2026-04-27T09:59:10Z
+generated_at: 2026-04-27T16:10:00Z
 source: chatgpt-agent
 scoring_system: check24
 data_quality: usable
@@ -22,9 +22,9 @@ matches:
       home: 1
       away: 1
     reasons:
-      - Markt gibt Paris zuhause nur eine leichte Kante, nicht mehr
-      - beide Teams bringen eine hohe Torproduktion in diesen Wettbewerb mit
-      - Bayern ist historisch im direkten Duell stark, deshalb bleibt der Tipp eng
+      - Markt und Opta sehen Paris zuhause nur knapp vorne
+      - Bayern bleibt im Offensivprofil elite, kommt aber mit mehreren Ausfaellen in die Partie
+      - hoher Tortrend auf beiden Seiten, fuer CHECK24 bleibt 2:1 robuster als ein riskanteres Spektakel
     data_quality: usable
   - tie_id: atletico-de-madrid-arsenal
     home_team: Atletico de Madrid
@@ -38,7 +38,7 @@ matches:
       home: 1
       away: 1
     reasons:
-      - Markt sieht Arsenal auch auswaerts leicht vorne
-      - Arsenal ist in dieser Champions-League-Saison weiter ungeschlagen und defensiv sehr stabil
-      - Atleti ist zuhause gefaehrlich, aber die Torlinie spricht eher fuer ein knappes erstes Duell
+      - Arsenal ist laut Markt fast auf Augenhoehe und bleibt das staerkere Teamstrength-Signal
+      - Atletico verliert mit Pablo Barrios einen wichtigen Mittelfeldanker fuer die Hinspiele
+      - erstes K.o.-Duell spricht fuer ein enges, torarmes Profil, in dem 0:1 CHECK24-stark bleibt
     data_quality: usable
