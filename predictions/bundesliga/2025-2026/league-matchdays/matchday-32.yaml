@@ -1,0 +1,145 @@
+prediction_type: league_matchday
+league_slug: bundesliga
+league_name: Bundesliga
+season: 2025-2026
+matchday: 32
+generated_at: 2026-04-27T09:19:34Z
+source: chatgpt-agent
+scoring_system: check24
+data_quality: usable
+matches:
+  - home_team: TSG Hoffenheim
+    away_team: VfB Stuttgart
+    predicted_score:
+      home: 1
+      away: 1
+    tendency: draw
+    confidence: medium
+    alternative_score:
+      home: 2
+      away: 1
+    reasons:
+      - Markt nur leicht pro Hoffenheim
+      - direkte Champions-League-Tabellennachbarn mit 57 Punkten
+      - beide Teams bringen genug Offensivqualitaet fuer ein Tor mit
+    data_quality: usable
+  - home_team: Union Berlin
+    away_team: Koeln
+    predicted_score:
+      home: 1
+      away: 0
+    tendency: home_win
+    confidence: medium
+    alternative_score:
+      home: 1
+      away: 1
+    reasons:
+      - Union ist leichter Heimfavorit im Markt
+      - beide Teams kommen aus schwacher Form und stehen unter Druck
+      - das Profil spricht eher fuer ein enges Low-Scoring-Spiel
+    data_quality: usable
+  - home_team: Werder Bremen
+    away_team: Augsburg
+    predicted_score:
+      home: 2
+      away: 1
+    tendency: home_win
+    confidence: medium
+    alternative_score:
+      home: 1
+      away: 1
+    reasons:
+      - Werder ist klarer Heimmarkt-Favorit
+      - Schmid und Stage tragen viel Bremer Output
+      - Augsburg bleibt ein unangenehmer, aber nicht stabiler Auswaertsgegner
+    data_quality: usable
+  - home_team: Eintracht Frankfurt
+    away_team: Hamburg
+    predicted_score:
+      home: 2
+      away: 1
+    tendency: home_win
+    confidence: medium
+    alternative_score:
+      home: 1
+      away: 0
+    reasons:
+      - Frankfurt hat die deutlich bessere 1-X-2-Linie
+      - Heimvorteil plus Tabellenkante gegen Hamburg
+      - Frankfurt hat mehr kreativen Output in den Teamdaten
+    data_quality: usable
+  - home_team: Bayern Muenchen
+    away_team: Heidenheim
+    predicted_score:
+      home: 3
+      away: 0
+    tendency: home_win
+    confidence: high
+    alternative_score:
+      home: 4
+      away: 0
+    reasons:
+      - extreme Marktlinie pro Bayern
+      - Tabellenfuehrer gegen Schlusslicht
+      - Kane und Olise treiben klar die staerkere Offense
+    data_quality: strong
+  - home_team: Bayer Leverkusen
+    away_team: RB Leipzig
+    predicted_score:
+      home: 2
+      away: 1
+    tendency: home_win
+    confidence: medium
+    alternative_score:
+      home: 1
+      away: 1
+    reasons:
+      - Leverkusen ist ein leichter Heimfavorit
+      - beide Teams liegen bei rund zwei Toren pro Spiel
+      - Leipzig kommt zwar mit starker Serie, aber Leverkusen hat die Heimkante
+    data_quality: usable
+  - home_team: St. Pauli
+    away_team: Mainz
+    predicted_score:
+      home: 0
+      away: 1
+    tendency: away_win
+    confidence: medium
+    alternative_score:
+      home: 1
+      away: 1
+    reasons:
+      - Mainz hat die leichte Marktseite trotz Auswaertsspiel
+      - beide Teams stehen im unteren Tabellendrittel unter Ergebnisdruck
+      - das Matchprofil bleibt eher knapp und torarm
+    data_quality: usable
+  - home_team: Borussia Moenchengladbach
+    away_team: Borussia Dortmund
+    predicted_score:
+      home: 1
+      away: 2
+    tendency: away_win
+    confidence: medium
+    alternative_score:
+      home: 1
+      away: 1
+    reasons:
+      - Dortmund ist klarer Favorit im Markt
+      - BVB hat deutlich mehr Tore und Punkte auf dem Konto
+      - Gladbach spielt viele enge Spiele, Dortmund hat aber den groesseren Offensivhebel
+    data_quality: usable
+  - home_team: Freiburg
+    away_team: Wolfsburg
+    predicted_score:
+      home: 1
+      away: 0
+    tendency: home_win
+    confidence: medium
+    alternative_score:
+      home: 2
+      away: 1
+    reasons:
+      - Freiburg ist zuhause vorne in der Marktlinie
+      - Wolfsburgs Form bleibt schwach
+      - Freiburg steht tabellarisch und defensiv etwas stabiler da
+    data_quality: usable
