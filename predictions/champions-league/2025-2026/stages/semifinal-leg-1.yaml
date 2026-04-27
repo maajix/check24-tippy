@@ -1,0 +1,44 @@
+prediction_type: stage
+league_slug: champions-league
+league_name: UEFA Champions League
+season: 2025-2026
+stage: semifinal
+stage_label: Halbfinale
+leg: 1
+generated_at: 2026-04-27T09:59:10Z
+source: chatgpt-agent
+scoring_system: check24
+data_quality: usable
+matches:
+  - tie_id: paris-saint-germain-bayern-muenchen
+    home_team: Paris Saint-Germain
+    away_team: Bayern Muenchen
+    predicted_score:
+      home: 2
+      away: 1
+    tendency: home_win
+    confidence: medium
+    alternative_score:
+      home: 1
+      away: 1
+    reasons:
+      - Markt gibt Paris zuhause nur eine leichte Kante, nicht mehr
+      - beide Teams bringen eine hohe Torproduktion in diesen Wettbewerb mit
+      - Bayern ist historisch im direkten Duell stark, deshalb bleibt der Tipp eng
+    data_quality: usable
+  - tie_id: atletico-de-madrid-arsenal
+    home_team: Atletico de Madrid
+    away_team: Arsenal
+    predicted_score:
+      home: 0
+      away: 1
+    tendency: away_win
+    confidence: medium
+    alternative_score:
+      home: 1
+      away: 1
+    reasons:
+      - Markt sieht Arsenal auch auswaerts leicht vorne
+      - Arsenal ist in dieser Champions-League-Saison weiter ungeschlagen und defensiv sehr stabil
+      - Atleti ist zuhause gefaehrlich, aber die Torlinie spricht eher fuer ein knappes erstes Duell
+    data_quality: usable
