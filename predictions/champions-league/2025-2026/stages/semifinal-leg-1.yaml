@@ -5,7 +5,7 @@ season: 2025-2026
 stage: semifinal
 stage_label: Halbfinale
 leg: 1
-generated_at: 2026-04-28T16:11:18Z
+generated_at: 2026-04-28T20:17:01Z
 source: chatgpt-agent
 scoring_system: check24
 data_quality: usable
@@ -23,8 +23,8 @@ matches:
       away: 1
     reasons:
       - Markt haelt Paris zuhause nur leicht vorne
-      - UEFA-Team-News: Paris ohne klare Ausfaelle, Bayern mit mehreren Ausfaellen und Kompany gesperrt
-      - beide Offensiven sind im Wettbewerb elite, fuer CHECK24 bleibt 2:1 robuster als ein offeneres 3:2
+      - UEFA-Vorschau vom 28. April meldet Paris nahezu komplett verfuegbar und kein neues verletzungsbedingtes Bayern-Signal, das den Tipp kippt
+      - beide Teams haben im Wettbewerb 38 Tore erzielt, fuer CHECK24 bleibt 2:1 robuster als ein offeneres 3:2
     data_quality: usable
   - tie_id: atletico-de-madrid-arsenal
     home_team: Atletico de Madrid
