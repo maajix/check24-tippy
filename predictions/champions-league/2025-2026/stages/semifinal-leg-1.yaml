@@ -5,7 +5,7 @@ season: 2025-2026
 stage: semifinal
 stage_label: Halbfinale
 leg: 1
-generated_at: 2026-04-27T16:10:00Z
+generated_at: 2026-04-28T20:17:01Z
 source: chatgpt-agent
 scoring_system: check24
 data_quality: usable
@@ -22,9 +22,9 @@ matches:
       home: 1
       away: 1
     reasons:
-      - Markt und Opta sehen Paris zuhause nur knapp vorne
-      - Bayern bleibt im Offensivprofil elite, kommt aber mit mehreren Ausfaellen in die Partie
-      - hoher Tortrend auf beiden Seiten, fuer CHECK24 bleibt 2:1 robuster als ein riskanteres Spektakel
+      - Markt haelt Paris zuhause nur leicht vorne
+      - UEFA-Vorschau vom 28. April meldet Paris nahezu komplett verfuegbar und kein neues verletzungsbedingtes Bayern-Signal, das den Tipp kippt
+      - beide Teams haben im Wettbewerb 38 Tore erzielt, fuer CHECK24 bleibt 2:1 robuster als ein offeneres 3:2
     data_quality: usable
   - tie_id: atletico-de-madrid-arsenal
     home_team: Atletico de Madrid
@@ -38,7 +38,7 @@ matches:
       home: 1
       away: 1
     reasons:
-      - Arsenal ist laut Markt fast auf Augenhoehe und bleibt das staerkere Teamstrength-Signal
-      - Atletico verliert mit Pablo Barrios einen wichtigen Mittelfeldanker fuer die Hinspiele
-      - erstes K.o.-Duell spricht fuer ein enges, torarmes Profil, in dem 0:1 CHECK24-stark bleibt
+      - Markt sieht Arsenal trotz Auswaertsspiel leicht vorne
+      - UEFA-Team-News: Atletico mit Barrios und Gimenez out, Hancko und Lookman fraglich
+      - Arsenals K.o.-Profil bleibt sehr torarm und defensiv stabil, daher ist 0:1 im CHECK24-System weiter stark
     data_quality: usable
