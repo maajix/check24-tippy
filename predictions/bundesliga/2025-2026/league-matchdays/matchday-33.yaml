@@ -1,0 +1,118 @@
+prediction_type: league_matchday
+league_slug: bundesliga
+league_name: Bundesliga
+season: 2025-2026
+matchday: 33
+generated_at: 2026-05-04T22:57:49Z
+source: chatgpt-agent
+scoring_system: check24
+data_quality: usable
+matches:
+  - home_team: Borussia Dortmund
+    away_team: Eintracht Frankfurt
+    predicted_score:
+      home: 2
+      away: 1
+    tendency: home_win
+    confidence: medium
+    reasons:
+      - Dortmund enters Matchday 33 in second with a 65:32 goal profile, while Frankfurt sits eighth with a 57:60 profile
+      - the first meeting finished 3:3, so Frankfurt's attack still nudges the call away from a clean-sheet home win
+      - the home-favorite baseline plus Dortmund's stronger season-long defense makes 2:1 the best CHECK24 core score
+    data_quality: usable
+  - home_team: TSG Hoffenheim
+    away_team: Werder Bremen
+    predicted_score:
+      home: 2
+      away: 1
+    tendency: home_win
+    confidence: medium
+    reasons:
+      - Hoffenheim comes in with 58 points and a 64:48 goal profile, clearly above Bremen's 32 points and 37:57
+      - Hoffenheim won the reverse fixture 2:0 and keeps the stronger attack baseline again at home
+      - Bremen's defense is weak enough for a home lean, but a single away goal still fits better than the flatter 2:0 route
+    data_quality: usable
+  - home_team: Augsburg
+    away_team: Borussia Moenchengladbach
+    predicted_score:
+      home: 1
+      away: 1
+    tendency: draw
+    confidence: medium
+    reasons:
+      - Augsburg is only five points ahead of Gladbach and neither side brings a stable goal difference into the weekend
+      - the reverse fixture was a 4:0 Gladbach win, but the current table and home edge flatten the matchup back toward balance
+      - 1:1 is the strongest exact draw cell in the current score matrix and covers the low-margin profile best
+    data_quality: usable
+  - home_team: VfB Stuttgart
+    away_team: Bayer Leverkusen
+    predicted_score:
+      home: 2
+      away: 1
+    tendency: home_win
+    confidence: medium
+    reasons:
+      - both clubs sit on 58 points, but Stuttgart gets the home edge and owns the slightly cleaner current market baseline
+      - Stuttgart won the reverse fixture 4:1, which supports the matchup lean despite Leverkusen's strong overall attack
+      - in a high-quality but still narrow game, 2:1 is the best practical CHECK24 score over the more passive 1:1 branch
+    data_quality: usable
+  - home_team: RB Leipzig
+    away_team: St. Pauli
+    predicted_score:
+      home: 2
+      away: 0
+    tendency: home_win
+    confidence: high
+    reasons:
+      - Leipzig's 63:42 season line is far stronger than St. Pauli's 27:55, and the home setting widens that gap further
+      - the first meeting ended 1:1, but Leipzig now gets the control script instead of the awkward away spot
+      - the score matrix is centered on 2:0 and 1:0, with 2:0 holding the best exact-score case for CHECK24
+    data_quality: usable
+  - home_team: Wolfsburg
+    away_team: Bayern Muenchen
+    predicted_score:
+      home: 1
+      away: 4
+    tendency: away_win
+    confidence: high
+    reasons:
+      - Bayern already owns an 83-point title profile with 116 goals scored, while Wolfsburg sits 16th with 67 conceded
+      - Bayern demolished Wolfsburg 8:1 in the reverse fixture, so the away baseline remains overwhelmingly one-sided
+      - Wolfsburg can still nick a goal at home, but 1:4 remains the strongest exact Bayern-heavy score in the current distribution
+    data_quality: usable
+  - home_team: Hamburg
+    away_team: Freiburg
+    predicted_score:
+      home: 1
+      away: 1
+    tendency: draw
+    confidence: medium
+    reasons:
+      - Freiburg is ahead in the table, but only by ten points and with a negative goal difference of 45:53 after 32 rounds
+      - the reverse fixture was Freiburg 2:1 Hamburg, yet this return leg is more balanced because Hamburg gets the home leverage
+      - 1:1 is the highest-probability exact score in a matchup with very little separation in expected goals
+    data_quality: usable
+  - home_team: Koeln
+    away_team: Heidenheim
+    predicted_score:
+      home: 2
+      away: 1
+    tendency: home_win
+    confidence: medium
+    reasons:
+      - Koeln is still only just above the bottom three, but Heidenheim brings the weakest defensive line in the league at 38:69
+      - the first meeting ended 2:2, showing the volatility, but Koeln's home edge shifts the best exact score toward a narrow home win
+      - 2:1 beats the flatter 1:1 and 2:0 branches on practical CHECK24 value while staying conservative enough for this relegation game
+    data_quality: usable
+  - home_team: Mainz
+    away_team: Union Berlin
+    predicted_score:
+      home: 1
+      away: 0
+    tendency: home_win
+    confidence: medium
+    reasons:
+      - Mainz starts the weekend four points above Union and with the better defensive baseline at 50 conceded versus 57
+      - the reverse fixture ended 2:2, but Union's season-long away profile still points to a thin chance creation setup
+      - in a low-margin bottom-half game, 1:0 gives the best practical mix of exact-hit chance and CHECK24 protection
+    data_quality: usable
